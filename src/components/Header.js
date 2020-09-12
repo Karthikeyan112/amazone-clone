@@ -36,7 +36,9 @@ const Header = () => {
         </li>
         <li className="header__option">
           <span className="header__optionOne">Returns</span>
-          <span className="header__optionTwo">& Orders</span>
+          <Link to="/orders" className="header__link">
+            <span className="header__optionTwo">& Orders</span>
+          </Link>
         </li>
         <li className="header__option">
           <span className="header__optionOne">Your</span>
